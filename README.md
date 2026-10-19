@@ -3,8 +3,8 @@
 Windows-Programm für österreichische Sparvereine: Mitglieder, Einzahlungen, Strafen,
 Zinsen mit KESt, Jahresauszahlung und Vereinsabrechnung – mit Ausdrucken für jeden Schritt.
 
-Alle Daten bleiben **auf Ihrem Rechner**. Das Programm braucht keine Internetverbindung,
-kein Konto und keine Cloud.
+Alle Daten bleiben **auf Ihrem Rechner**. Das Programm braucht kein Konto und keine Cloud;
+Internet nur, wenn Sie auf der Startseite selbst nach Updates suchen.
 
 ## Download
 
@@ -17,6 +17,13 @@ kein Konto und keine Cloud.
    **Trotzdem ausführen**.
 
 Voraussetzung: Windows 10 (ab Version 2004) oder Windows 11. Sonst muss nichts installiert werden.
+
+## Update
+
+Ab Version 1.0.1: Auf der **Startseite** auf **„Nach Updates suchen“** klicken. Gibt es eine neue
+Version, installiert **„Jetzt aktualisieren“** sie – die Datenbank wird vorher gesichert, die
+Vereinsdaten bleiben erhalten. Bei Version 1.0.0 einmalig die neue ZIP herunterladen und die
+Programmdateien ersetzen (`sparverein.db` behalten).
 
 ## Kosten
 

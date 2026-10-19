@@ -26,7 +26,8 @@ Neuberechnung durchzuführen und alle Ergebnisse auf Plausibilität zu prüfen.*
 ## 4. Datenschutz
 
 Diese Anwendung arbeitet als reine Desktop-Anwendung. Alle personenbezogenen Daten werden
-ausschließlich lokal gespeichert. Es erfolgt keine Übertragung an Dritte. Die vollständige
+ausschließlich lokal gespeichert. Vereins- und Mitgliederdaten werden nicht an Dritte übertragen.
+Nur die Update-Suche auf Knopfdruck fragt bei GitHub an. Die vollständige
 Datenschutzerklärung ist im Programm über die Fußzeile erreichbar.
 
 ## 5. Urheberrecht
