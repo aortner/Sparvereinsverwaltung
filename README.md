@@ -1,4 +1,4 @@
-# Sparvereinsverwaltung
+# ![Sparvereinsverwaltung](bilder/logo.png)
 
 Windows-Programm für österreichische Sparvereine: Mitglieder, Einzahlungen, Strafen,
 Zinsen mit KESt, Jahresauszahlung und Vereinsabrechnung – mit Ausdrucken für jeden Schritt.
