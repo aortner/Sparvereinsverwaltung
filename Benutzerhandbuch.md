@@ -195,8 +195,23 @@ Alle Daten stehen in der Datei **`sparverein.db`** im Programmordner.
 - Zum Wiederherstellen die gesicherte Datei zurück in den Programmordner kopieren.
 - Empfehlung: nach jedem Einzahlungstermin und vor jeder Auszahlung sichern.
 
-Bei einem Update der Software einfach die neuen Programmdateien über die alten kopieren und
-`sparverein.db` behalten – die Datenbank wird beim Start automatisch auf den neuen Stand gebracht.
+### Update auf eine neue Version
+
+Das Programm sucht **nie von selbst** nach Updates. Zum Prüfen:
+
+1. Auf der **Startseite** (Home) auf **„Nach Updates suchen“** klicken. Dabei wird kurz bei GitHub
+   nachgefragt; es werden keine Vereinsdaten übertragen.
+2. Gibt es eine neue Version, erscheint ein Hinweis mit Link **„Was ist neu?“**.
+3. **„Jetzt aktualisieren“** klicken und die Rückfrage bestätigen. Das Programm
+   - sichert die Datenbank als `sparverein_vor_update_<alte Version>_<Datum>.db` im Programmordner,
+   - lädt die neue Version herunter, beendet sich, ersetzt die Programmdateien und startet neu.
+
+Die Vereinsdaten in `sparverein.db` bleiben erhalten; die Datenbank wird beim Start automatisch
+auf den neuen Stand gebracht. Die Versionsnummer steht auf der Startseite.
+
+Ohne Internet oder bei Version 1.0.0: die neue ZIP von
+https://github.com/aortner/Sparvereinsverwaltung/releases herunterladen, entpacken und
+`Sparverein.exe` sowie den Ordner `wwwroot` über die alten kopieren – `sparverein.db` behalten.
 
 ## 10. Ablauf eines Vereinsjahres (Kurzfassung)
 
