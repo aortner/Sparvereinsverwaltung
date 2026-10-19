@@ -1,0 +1,4 @@
+*.zip
+*.db
+*.db-shm
+*.db-wal
