@@ -1,4 +1,6 @@
-# Sparverein – Benutzerhandbuch
+![Sparvereinsverwaltung](bilder/logo.png)
+
+# Benutzerhandbuch
 
 Dieses Handbuch beschreibt die Bedienung der Sparvereinsverwaltung für Kassiere und Vorstände.
 
@@ -23,8 +25,10 @@ Voraussetzung: Windows 10 (ab Version 2004) oder Windows 11. Sonst muss nichts i
 4. Das Programm ist sofort mit der **kostenlosen Lizenz** freigeschaltet (siehe Kapitel 2).
    Weiter mit den Stammdaten.
 
-Die **Startseite** zeigt die installierte Version, den Knopf **Nach Updates suchen** (Kapitel 9)
-und die wichtigsten Sicherheitshinweise. Links ist das Menü mit allen Seiten.
+Die **Startseite** zeigt die installierte Version, den Knopf **Nach Updates suchen** (Kapitel 9),
+den Knopf **Bedienungsanleitung** und die wichtigsten Sicherheitshinweise. Links ist das Menü mit
+allen Seiten. Die Bedienungsanleitung (dieses Handbuch mit Bildern) öffnet sich im Internet-Browser;
+der Link steht auch unten in der Fußzeile jeder Seite.
 
 ![Startseite](bilder/startseite.png)
 
@@ -77,7 +81,7 @@ Für eine Lizenz oder eine neuere Version des Programms einfach an **office@auto
 | Feld                              | Bedeutung                                                                          |
 |-----------------------------------|------------------------------------------------------------------------------------|
 | Zinssatz (%)                      | Jahreszinssatz, z. B. `1` für 1 %                                                   |
-| KESt (%)                          | Kapitalertragsteuer, in Österreich `27,5`                                           |
+| KESt (%)                          | Kapitalertragsteuer, in Österreich `25` für Zinsen aus Spareinlagen bei Banken      |
 | Strafe bei Nichteinzahlung (€)    | Betrag, der pro „Straf-Termin“ abgezogen wird                                       |
 | Strafe unter € Einzahlung         | Wer an einem Straf-Termin **weniger** als diesen Betrag einzahlt, bekommt die Strafe |
 | Essensabzug bei Auszahlung (€)    | Pauschale, die bei der Auszahlung einbehalten wird (z. B. Abschlussessen)           |
@@ -211,6 +215,11 @@ Menü **Abrechnung**.
   Zinsgewinn bzw. -verlust des Vereins.
 - **Endabrechnung Verein:** Zinsdifferenz + Strafen ± Rundung + bis zu 5 weitere Einnahmen −
   bis zu 5 weitere Ausgaben = **Gewinn für den Verein**.
+
+Weiter unten auf der Seite: Zinsvergleich und Endabrechnung Verein mit den Feldern für zusätzliche
+Einnahmen und Ausgaben (im Beispiel sind noch keine Bankzinsen eingetragen, daher die negative Zinsdifferenz):
+
+![Zinsvergleich und Endabrechnung Verein](bilder/endabrechnung-verein.png)
 
 Alle Eingaben auf dieser Seite werden automatisch (ca. 1 Sekunde nach der Eingabe) in der
 Vereinsdatenbank gespeichert. **Drucken** gibt die Abrechnung aus.
