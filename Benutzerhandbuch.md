@@ -23,9 +23,16 @@ Voraussetzung: Windows 10 (ab Version 2004) oder Windows 11. Sonst muss nichts i
 4. Das Programm ist sofort mit der **kostenlosen Lizenz** freigeschaltet (siehe Kapitel 2).
    Weiter mit den Stammdaten.
 
+Die **Startseite** zeigt die installierte Version, den Knopf **Nach Updates suchen** (Kapitel 9)
+und die wichtigsten Sicherheitshinweise. Links ist das Menü mit allen Seiten.
+
+![Startseite](bilder/startseite.png)
+
 ## 2. Stammdaten und Lizenz einrichten
 
 Menü **Stammdaten**.
+
+![Stammdaten](bilder/stammdaten.png)
 
 ### Allgemein
 
@@ -90,6 +97,8 @@ Für eine Lizenz oder eine neuere Version des Programms einfach an **office@auto
 
 Menü **Mitglieder**.
 
+![Mitglieder](bilder/mitglieder.png)
+
 - **Neues Mitglied anlegen:** Nr., Name, Adresse, PLZ, Geburtsdatum, „Identität festgestellt“.
   Mit „leer anlegen“ wird ein Platzhalter (Name „leer“) für eine freie Nummer erstellt.
 - **Bearbeiten / Löschen** über die Schaltflächen in der Tabelle.
@@ -114,6 +123,8 @@ Eine Datei aus **Export → Mitglieder als CSV exportieren** hat genau dieses Fo
 ## 4. Einzahlungen erfassen
 
 Menü **Neue Einzahlung**.
+
+![Neue Einzahlung](bilder/neue-einzahlung.png)
 
 1. **Datum der Einzahlung** wählen (höchstens 10 Tage in der Zukunft). Existieren für dieses Datum
    bereits Einzahlungen, erscheint eine Warnung und das Speichern wird verhindert, um doppelte
@@ -148,12 +159,34 @@ damit die Strafe berechnet werden kann.
   Auszahlung oder Anwesenheit), sortierbar nach Nr. oder Name.
 - **Runde Geburtstage** – Mitglieder, die im Jahr der Auszahlung (Stammdaten „Auszahlung am“) 40, 45, 50, … Jahre alt werden, nach Datum sortiert.
 
+**Einzahlungsübersicht** – oben die Gesamtsummen, darunter je Mitglied Zusammenfassung und alle Einzahlungen:
+
+![Einzahlungsübersicht](bilder/einzahlungsuebersicht.png)
+
+**Übersicht nach Datum** – je Termin die Summe; „Strafe angewendet“ markiert die Pflichttermine:
+
+![Übersicht nach Datum](bilder/uebersicht-nach-datum.png)
+
+**Rangliste:**
+
+![Rangliste](bilder/rangliste.png)
+
+**Mitgliederliste:**
+
+![Mitgliederliste](bilder/mitgliederliste.png)
+
+**Runde Geburtstage:**
+
+![Runde Geburtstage](bilder/runde-geburtstage.png)
+
 ## 6. Auszahlung
 
 1. **Stammdaten → „Auszahlung am“** prüfen und **Auszahlung neu berechnen** ausführen.
 2. Menü **Auszahlung**: zeigt die Gesamtübersicht, den **Gesamtbedarf an Scheinen und Münzen**
    für die Bank und die Stückelung pro Mitglied.
 3. **Drucken** erzeugt die Auszahlungsliste mit Spalte „Identität geprüft“.
+
+![Auszahlung](bilder/auszahlung.png)
 
 So wird der Auszahlungsbetrag berechnet:
 
@@ -169,6 +202,8 @@ So wird der Auszahlungsbetrag berechnet:
 ## 7. Jahresabrechnung
 
 Menü **Abrechnung**.
+
+![Jahresabrechnung](bilder/abrechnung.png)
 
 - **Vereinsabrechnung:** Summe der Einzahlungen, Zinsen brutto abzüglich KESt, Strafen, Essensbeitrag und Rundung
   ergeben die Summe der Auszahlungen.
@@ -186,6 +221,8 @@ Vereinsdatenbank gespeichert. **Drucken** gibt die Abrechnung aus.
 - **Alle Einzahlungen als ZIP exportieren** – je Einzahlungstermin eine CSV-Datei
   (`Bezeichnung_JJJJ-MM-TT.csv`) mit `Nr,Betrag`, die auf der Seite **Neue Einzahlung** wieder
   importiert werden kann.
+
+![Export](bilder/export.png)
 
 ## 9. Datensicherung
 
